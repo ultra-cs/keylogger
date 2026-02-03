@@ -1,20 +1,20 @@
 # Keyboard Listener with pynput (Python)
 
-این پروژه یک مثال ساده از استفاده‌ی کتابخانه‌ی `pynput` برای **گوش دادن به رویدادهای کیبورد** در پایتون است.
+This project is a simple example of using the `pynput` library to **listen to keyboard events** in Python.
 
-برنامه هر کلیدی که فشرده می‌شود را دریافت می‌کند و بعد از رسیدن تعداد کلیدها به مقدار مشخص، داده را پردازش می‌کند.
+The program receives each key that is pressed and processes the data after the number of keys reaches a certain value.
 
 ---
 
-## 📦 کتابخانه‌های استفاده‌شده
+## 📦 Libraries used
 
 ### pynput
-کتابخانه‌ی `pynput` برای کنترل و مانیتور کردن ورودی‌های سیستم (کیبورد و موس) استفاده می‌شود.
+The `pynput` library is used to control and monitor system inputs (keyboard and mouse).
 
-در این پروژه:
-- از `keyboard.Listener` برای گوش دادن به کیبورد استفاده شده
-- رویداد `on_press` هر بار با فشرده شدن یک کلید اجرا می‌شود
+In this project:
+- `keyboard.Listener` is used to listen to the keyboard
+- `on_press` event is fired every time a key is pressed
 
-نصب:
+Installation:
 ```bash
 pip install pynput
